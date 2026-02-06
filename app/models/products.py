@@ -23,4 +23,14 @@ class ProductDBMondel(Produt):
         return data
     #essa classe e para converter o id do produto de ObjectId para string quando for retornarndo a resposta da API
 
-    
+class UpdateProduct(BaseModel):
+    name: Optional[str]= None
+    price: Optional[float] = None
+    description: Optional[str] = None
+    stock: Optional[int] = None
+    #a funcao disso aqui e definir o modelo de dados do produto
+
+    model_config = ConfigDict(
+        populate_by_name=True,
+        arbitrary_types_allowed=True
+    )    
