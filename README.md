@@ -1,4 +1,4 @@
-<h1>Ideia do projeto:</h1>
+<h1>Sobre projeto:</h1>
 
 O objetivo principal do projeto do curso de Flask: desenvolvendo APIs e aplicações web com MongoDB é desenvolver uma aplicação web para a "Style Sync" de forma rápida e eficiente.
 
